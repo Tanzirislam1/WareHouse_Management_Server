@@ -6,9 +6,6 @@ const cors = require('cors');
 require('dotenv').config();
 const port = process.env.PORT || 5000;
 
-// https://warehouse-server-nu.vercel.app/
-// https://warehouse-server-tanzirislam1.vercel.app
-
 /* middleware */
 app.use(cors());
 app.use(express.json());
