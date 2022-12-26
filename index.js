@@ -36,7 +36,7 @@ const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology:
 async function run() {
   try {
     // Connect to the MongoDB cluster
-    await client.connect();
+    // await client.connect();
     console.log('db connect');
 
     const carCollection = client.db('carStock').collection('carCollection');
